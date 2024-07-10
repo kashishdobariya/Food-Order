@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mt-50{
+  margin-top: 150px;
+}
+.size{
+  width: 343px;
+}
+.bg-color{
+  background-color: lightpink;
+}
+.food_category{
+  background-color: red;  
+}
+.product_item{
+  border: 2px solid #000 ;
+  width:30%;
+  margin-left: 10px;
+}
+.all-btn-home{
+  background-color: red;
+  color:#fff;
+  padding: 10px 20px;
+  border: none;
+}
+.span-color{
+  color: red;
+}
+.btn-color{
+  background-color: red;
+}
+.slider_img{
+  width: 10%;
+}
+.cart_icon{
+  background-color: red;
+  color: #fff;
+  /* padding: 7px;  */
+  font-size: 10px;
+}
+.shopping_bag{
+  margin-top: 60px;
+}
+.commansection-bg-im{
+   background-image: linear-gradient(to bottom,rgba(68,68,68,0.75),rgba(68,68,68,0.75)),url(../public/assets/img/banner-02.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: left center;
+   padding: 80px;
+}
+.burger-img-set{
+  width: 25%;
+}
+.paginationBttns{
+  width: 80%;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  list-style: none;
+  margin-top: 30px;
+}
+.paginationBttns a {
+   padding: 5px 13px;
+   background:red;
+   color: #fff !important;
+}
+@import
+url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&display=swap");
+/* reset default style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  /* base style */
+  body {
+  background: #fcfcfc;
+  font-family: "Istok Web", sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6 {
+  font-family: "RocknRoll One", sans-serif !important;
+  }
+  a {
+  text-decoration: none;
+  color: unset;
+  }
+  h1,h2 {
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: #212245;
+  }
+  /* section {
+  padding: 60px 0px;
+  } */
+  @media only screen and (max-width: 768px) {
+  section {
+  padding: 40px 0px;
+  }
+  h1,h2 {
+  font-size: 1.5rem;
+  }
+  }  
+  .cart__item-info img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+  } 
+  .cart__product-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+  } 
+  .cart__product-price {
+    font-size: 0.8rem;
+  } 
+  .cart__product-price span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #df2020;
+  }  
+  .increase__decrease-btn {
+    background: #fde4e4;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  .increase__btn,
+  .decrease__btn {
+    cursor: pointer;
+  }
+  
+  .delete__btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .cart__item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #fde4e4;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .delete__btn {
+        font-size: 1rem;
+    }
+  }
+  
+  .cart__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.639);
+    z-index: 99999;
+  }
+  
+  .cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background: #fff;
+    z-index: 999999;
+  }
+  
+  .cart__close {
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+  }
+  
+  .cart__close span i {
+    font-size: 1.1rem;
+    background: #212245;
+    padding: 5px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .cart__item-list {
+    height: calc(100vh - 140px);
+    overflow-y: scroll;
+  }
+  
+  .cart__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 20px;
+    width: 100%;
+    height: 80px;
+    background: #df2020;
+  }
+  
+  .cart__bottom h6 {
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .cart__bottom h6 span {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  
+  .cart__bottom button {
+    border: none;
+    padding: 4px 20px;
+    border-radius: 5px;
+    background: #fff;
+    color: #212245;
+  }
+  
+  .cart__bottom button a {
+    color: #212245;
+    font-weight: 600;
+  }
+  
+  .cart__bottom button a:hover {
+    color: #df2020
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .cart {
+        width: 300px !important;
+    }
+  }
